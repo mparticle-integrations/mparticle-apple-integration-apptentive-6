@@ -41,7 +41,6 @@ Included kits: { Apptentive }
 | Platform | Minimum Version |
 | -------- | --------------- |
 | iOS      | 15.0            |
-| tvOS     | 15.0            |
 
 ## Documentation
 

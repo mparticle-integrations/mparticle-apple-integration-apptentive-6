@@ -261,7 +261,7 @@ static NSString * _apptentiveSignature = nil;
 #pragma mark Events
 
 - (nonnull MPKitExecStatus *)logBaseEvent:(nonnull MPBaseEvent *)event {
-    if ([event isKindOfClass:[MPBaseEvent class]]) {
+    if ([event isKindOfClass:[MPEvent class]]) {
         return [self routeEvent:(MPEvent *)event];
     } else {
         return [[MPKitExecStatus alloc] initWithSDKCode:@(MPKitInstanceApptentive) returnCode:MPKitReturnCodeUnavailable];
